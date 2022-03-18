@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    min-height: 100vh;
+    background-color: black;
+  }
+  .item {
+    height: 200px;
+    background-color: #bbb;
+      border: 1px solid black;
+  }
+  .container {
+    min-height: 100vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); /* LINHA NOVA */
+    gap: 10px;
+  }
